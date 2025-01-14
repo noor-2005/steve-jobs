@@ -1,0 +1,43 @@
+body {
+    background-color: lightblue;
+}
+nav {
+    text-align: center;
+}
+div.container{
+    text-align: center;
+    color: #0000ff;
+}
+div p::first-line {
+    color: red;
+}
+.s {
+    font-size: 2em;
+    color: black;
+
+}
+
+.lista {
+list-style-type: decimal;
+padding: left 10px; 
+}
+
+p.sobre a{
+    background-color: white;
+    padding: 7px;
+}
+
+.sobre:first-of-type a {
+    background-color: blue;
+    color: white;
+}
+.img {
+    width: 300px;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+}
+a.sobre:hover {
+    background-color: yellow;
+    color: red;
+}
